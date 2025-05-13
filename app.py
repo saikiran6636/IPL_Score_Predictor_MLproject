@@ -2,14 +2,16 @@ import streamlit as st
 import pickle
 import pandas as pd
 
-teams = ['Sunrisers Hyderabad',
+teams = [
+ 'Sunrisers Hyderabad',
  'Mumbai Indians',
  'Royal Challengers Bangalore',
  'Kolkata Knight Riders',
  'Kings XI Punjab',
  'Chennai Super Kings',
  'Rajasthan Royals',
- 'Delhi Capitals']
+ 'Delhi Capitals'
+]
 
 cities = ['Hyderabad', 'Bangalore', 'Mumbai', 'Indore', 'Kolkata', 'Delhi',
        'Chandigarh', 'Jaipur', 'Chennai', 'Cape Town', 'Port Elizabeth',
